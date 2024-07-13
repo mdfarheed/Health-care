@@ -1,0 +1,50 @@
+.card{
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.726);
+    border: none;
+    
+}
+.card-img-top{
+height: 250px;
+}
+.card-body>p{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+.card-body{
+    background: #0d6dfdb9;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 0;
+    transition: 1s;
+}
+.btns{
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .card-body{
+    height: 100px;
+    bottom: 0px;
+    background: rgba(27, 27, 27,0);
+    transition: 1s;
+    color: black;
+}
+.card:hover .btns{
+    opacity: 1;
+    visibility: visible;
+    transition: 1.5s;
+}
+.card:hover .card-img-top{
+    transform: scale(1.1);
+    transition: 1s;
+}
+ 
+ 

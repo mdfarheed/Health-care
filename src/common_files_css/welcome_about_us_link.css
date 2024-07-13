@@ -1,0 +1,20 @@
+.about_img{
+    box-shadow: -5px 5px 5px 0px rgba(128, 128, 128, 0.692);
+}
+.text_about{
+    /* font-family: cursive; */
+    font-weight: normal;
+    font-style: normal;
+    list-style-type: none;
+}
+.text_about_p
+{
+    /* font-family: Papyrus, fantasy; */
+    text-align: justify;
+}
+@media screen and (max-width: 1000px) {
+    .text_about_head {
+        margin-top: 3%;
+        
+    }
+}

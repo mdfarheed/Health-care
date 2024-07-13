@@ -1,0 +1,24 @@
+ *
+ {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serifs;
+ }
+ 
+.logo_img{
+    margin-bottom: 12px;
+}
+.cursur_pointer{
+    cursor: pointer;
+}
+.outline_remove{
+    outline: none;
+}
+@media screen and (max-width: 700px) {
+    .off {
+       max-width: 50%;
+        
+    }
+}
+
+ 

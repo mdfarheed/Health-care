@@ -1,0 +1,14 @@
+.app_img{
+    width: 100%;
+    height: 320px;
+}
+@media screen and (max-width: 600px) {
+    .app_img {
+        width: 100%;
+        height: 400px;
+        
+    }
+}
+.rate{
+    font-size: 17px;
+}

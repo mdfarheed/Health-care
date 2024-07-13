@@ -1,0 +1,6 @@
+.back_img_intro{
+    background-image: url('/public/images/intro.jpg');
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

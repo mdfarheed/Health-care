@@ -1,0 +1,15 @@
+.count_card{
+    width: 33%;
+}
+.img_count{
+    height: 400px;
+}
+@media screen and (max-width: 770px) {
+    .count_heading{
+        margin-top: 20%;   
+    }
+}
+.slide_heading{
+    transform: translateX(-150%);
+}
+ 
